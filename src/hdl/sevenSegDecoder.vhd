@@ -58,7 +58,6 @@ begin
                       (i_D = x"6") or 
                       (i_D = x"B") or 
                       (i_D = x"C") or
-                      (i_D = x"D") or 
                        (i_D = x"E") or
                        (i_D = x"F") ) else '0';
     c_Sc <= '1' when ((i_D = x"2") or 

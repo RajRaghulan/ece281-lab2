@@ -48,20 +48,20 @@
 --|
 --------------------------------------------------------------------------------
 library ieee;
-  use ieee.std_logic_1164.all;
-  use ieee.numeric_std.all;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
   
 entity sevenSegDecoder_tb is
 end sevenSegDecoder_tb;
 
 architecture test_bench of sevenSegDecoder_tb is 
-	
+  
   -- declare the component of your top-level design unit under test (UUT)
   component sevenSegDecoder is
     port(
        i_D : in std_logic_vector (3 downto 0);
        o_S : out std_logic_vector (6 downto 0)
-    );	
+    ); 
   end component;
 
   -- signals for the UUT
