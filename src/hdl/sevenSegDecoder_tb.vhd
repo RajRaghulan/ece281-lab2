@@ -84,7 +84,7 @@ begin
 	begin
 		-- assign 0 to w_sw, wait, then check the value of seg
 		w_sw <= x"0"; wait for 10 ns;
-		  assert w_seg = "100000" report "error on x0" severity failure;
+		  assert w_seg = "1000000" report "error on x0" severity failure;
 
         -- Remaining test cases
           w_sw <= x"1"; wait for 10 ns;
